@@ -124,7 +124,7 @@ const Buttons=styled.button`
   `
 const Container = styled.div`
   display: flex;
-  gap: 15px;
+  // gap: 5px;
   padding: 23px;
   margin: 30px 0px;
   justify-content: space-between;
@@ -139,7 +139,7 @@ const Container = styled.div`
 
 const ImageDiv = styled.div`
   width: 100%;
-  max-width: 500px;
+  max-width: 400px;
   height: 570px;
   img {
     width: 100%;
@@ -176,7 +176,6 @@ const ContentDiv = styled.div`
   flex-direction: column;
   width: 100%;
   max-width: 630px;
-  margin-left: 40px;
   @media (max-width: 768px) {
     margin-left: 0;
   }
